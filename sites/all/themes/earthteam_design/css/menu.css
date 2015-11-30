@@ -1,0 +1,309 @@
+/*******************************************************************************
+ * Main nav
+ ******************************************************************************/
+
+
+.sf-shadow ul {
+	background:none;
+}
+
+
+#navigation ul#superfish-1 li.sf-depth-2{
+border-radius:0;
+    margin: 0;
+  padding: 0;
+    width: 250px;
+  background-color:#272727;
+  background-color: rgba(0,0,0,0.6);
+ background-image:none;
+}
+
+#navigation ul#superfish-1 li.sf-depth-2.first{
+	-webkit-border-top-left-radius: 8px;
+-webkit-border-top-right-radius: 8px;
+-moz-border-radius-topleft: 8px;
+-moz-border-radius-topright: 8px;
+border-top-left-radius: 8px;
+border-top-right-radius: 8px;
+}
+
+#navigation ul#superfish-1 li.sf-depth-2.last{
+-webkit-border-bottom-right-radius: 8px;
+-webkit-border-bottom-left-radius: 8px;
+-moz-border-radius-bottomright: 8px;
+-moz-border-radius-bottomleft: 8px;
+border-bottom-right-radius: 8px;
+border-bottom-left-radius: 8px;
+}
+
+#navigation ul#superfish-1 li.sf-depth-2 a{
+-moz-transition: all 0.1s linear 0s;
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    border-radius: 0 0 0 0;
+    display: block;
+    height: auto;
+    line-height: 24px;
+    padding: 12px 18px;
+    position: static;
+    text-align: left;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75);
+    top: 0;
+   	font-size: 15px;
+}
+
+
+/*******************************************************************************
+ * Social media menu
+ ******************************************************************************/
+
+
+.pane-menu-menu-social-links a.menu-facebook{
+	color:#ffffff;
+	background-image: url("../images/icon/facebook.png");
+	background-position: 0 65%;
+ 	background-repeat: no-repeat;
+	padding: 24px 0 16px 39px;
+}
+
+.pane-menu-menu-social-links a.menu-twitter{
+	color:#ffffff;
+	background-image: url("../images/icon/twitter.png");
+	background-position: 0 65%;
+ 	background-repeat: no-repeat;
+	padding: 24px 0 16px 39px;	
+	
+}
+.pane-menu-menu-social-links a.menu-picasa{
+	color:#ffffff;
+	background-image: url("../images/icon/picasa.png");
+	background-position: 0 65%;
+ 	background-repeat: no-repeat;
+	padding: 24px 0 16px 39px;	
+	
+}
+.pane-menu-menu-social-links a.menu-googleplus{
+	color:#ffffff;
+	background-image: url("../images/icon/googleplus.png");
+	background-position: 0 65%;
+ 	background-repeat: no-repeat;
+	padding: 24px 0 16px 39px;	
+	
+}
+.pane-menu-menu-social-links a.menu-youtube{
+	color:#ffffff;
+	background-image: url("../images/icon/youtube.png");
+	background-position: 0 65%;
+ 	background-repeat: no-repeat;
+	padding: 24px 0 16px 39px;
+}
+
+.pane-menu-menu-social-links a.earthteam-events {
+	color: #ffffff;
+	background-image: url(/sites/all/themes/earthteam_design/images/icon/eb-icon_large_bw.png);
+	background-position: 0 65%;
+	background-repeat: no-repeat;
+	padding: 24px 0 16px 39px;
+}
+
+.pane-menu-menu-social-links a.earthteam-greennews {
+	color: #ffffff;
+	background-image: url("../images/icon/givingnews.png");
+	background-position: 0 65%;
+	background-repeat: no-repeat;
+	padding: 24px 0 16px 39px;	
+}
+
+.pane-menu-menu-social-links a.menu-facebook:hover{
+	background-image: url("../images/icon/facebook-green.png");
+}
+
+.pane-menu-menu-social-links a.menu-twitter:hover{
+	background-image: url("../images/icon/twitter-green.png");
+}
+
+.pane-menu-menu-social-links a.menu-picasa:hover{
+	background-image: url("../images/icon/picasa-green.png");	
+}
+
+.pane-menu-menu-social-links a.menu-youtube:hover{
+	background-image: url("../images/icon/youtube-green.png");
+}
+
+.pane-menu-menu-social-links a.menu-googleplus:hover{
+	background-image: url("../images/icon/googleplus-green.png");
+}
+
+.pane-menu-menu-social-links a.earthteam-events:hover {
+	background-image: url(/sites/all/themes/earthteam_design/images/icon/eb-icon_large.png);
+}
+
+.pane-menu-menu-social-links a.earthteam-greennews:hover {
+	background-image: url("../images/icon/givingnews-green.png");
+}
+
+/*******************************************************************************
+ * Green multimedia home page menu
+ ******************************************************************************/
+.green-news{
+	background-image: linear-gradient(bottom, #CA8618 44%, #D8A133 72%);
+background-image: -o-linear-gradient(bottom, #CA8618 44%, #D8A133 72%);
+background-image: -moz-linear-gradient(bottom, #CA8618 44%, #D8A133 72%);
+background-image: -webkit-linear-gradient(bottom, #CA8618 44%, #D8A133 72%);
+background-image: -ms-linear-gradient(bottom, #CA8618 44%, #D8A133 72%);
+
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.44, #CA8618),
+	color-stop(0.72, #D8A133)
+);
+}
+
+
+.green-screen{
+	background-image: linear-gradient(bottom, #CA6036 44%, #C85A2F 72%);
+background-image: -o-linear-gradient(bottom, #CA6036 44%, #C85A2F 72%);
+background-image: -moz-linear-gradient(bottom, #CA6036 44%, #C85A2F 72%);
+background-image: -webkit-linear-gradient(bottom, #CA6036 44%, #C85A2F 72%);
+background-image: -ms-linear-gradient(bottom, #CA6036 44%, #C85A2F 72%);
+
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.44, #CA6036),
+	color-stop(0.72, #C85A2F)
+);
+}
+
+.pane-menu-menu-green-multimedia a{
+ border-radius:8px;
+color:#ffffff;
+font-size:20px;
+}
+
+.pane-menu-menu-green-multimedia a.green-screen{
+  padding:15px 50px;	
+}
+
+.pane-menu-menu-green-multimedia a.green-news{
+  padding:15px 62px;	
+}
+
+.pane-menu-menu-green-multimedia a:hover{
+	color:#333333;
+}
+.pane-menu-menu-green-multimedia li.leaf{
+margin:40px 0;
+}
+
+.pane-menu-menu-green-multimedia ul li.leaf {
+	list-style:none;
+	margin:10px 0 50px;
+	padding:0;
+}
+
+.pane-menu-menu-green-multimedia ul {
+	margin:0;
+	padding:0;
+}
+
+.pane-menu-menu-green-multimedia .pane-title{
+	font-size:1.4em;
+}
+
+/*******************************************************************************
+ * Footer menus
+ ******************************************************************************/
+.region-footer a:link{
+	color:#333333;
+}
+
+.region-footer a:visited{
+	color:#333333;
+}
+
+.region-footer a:hover{
+	color:#DA7A19;
+}
+
+.region-footer ul li.leaf {
+	list-style:none;
+	margin:4px auto;
+	font-size:14px;
+}
+.region-footer ul {
+	margin:0;
+	padding:0;
+}
+
+.region-footer li {
+	margin:0;
+	padding:0;
+}
+
+.region-footer a.active{
+	color:#DA7A19;
+}
+
+.region-footer .pane-title{
+	font-weight:bold;
+}
+
+.footer-info{
+	text-align:center;
+}
+
+/*******************************************************************************
+ * Buttons
+ ******************************************************************************/
+.yellow{
+	background-image: linear-gradient(bottom, #CA8618 44%, #D8A133 72%);
+background-image: -o-linear-gradient(bottom, #CA8618 44%, #D8A133 72%);
+background-image: -moz-linear-gradient(bottom, #CA8618 44%, #D8A133 72%);
+background-image: -webkit-linear-gradient(bottom, #CA8618 44%, #D8A133 72%);
+background-image: -ms-linear-gradient(bottom, #CA8618 44%, #D8A133 72%);
+
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.44, #CA8618),
+	color-stop(0.72, #D8A133)
+);
+}
+
+
+.orange{
+	background-image: linear-gradient(bottom, #CA6036 44%, #C85A2F 72%);
+background-image: -o-linear-gradient(bottom, #CA6036 44%, #C85A2F 72%);
+background-image: -moz-linear-gradient(bottom, #CA6036 44%, #C85A2F 72%);
+background-image: -webkit-linear-gradient(bottom, #CA6036 44%, #C85A2F 72%);
+background-image: -ms-linear-gradient(bottom, #CA6036 44%, #C85A2F 72%);
+
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.44, #CA6036),
+	color-stop(0.72, #C85A2F)
+);
+}
+
+a.orange,
+a.yellow{
+border-radius:8px;
+color:#ffffff;
+display:inline-block;
+font-size:20px;
+margin: 0 0 23px;
+padding:15px 50px;
+text-align:center;
+}
+
+a.orange:hover,
+a.yellow:hover{
+	color:#333333;
+}

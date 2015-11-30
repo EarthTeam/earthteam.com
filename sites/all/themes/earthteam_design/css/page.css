@@ -1,0 +1,241 @@
+
+/**
+ * Individual Page styling
+ */
+
+/*******************************************************************************
+ * Front Page
+ ******************************************************************************/
+.agenda .date-label{
+background: #eee !important;
+}
+.panel-2col-stacked .panel-col-last .inside {
+    margin: 0 0 0 2.1em;
+}
+
+.pane-social-links-home{
+	background-color:gray;
+  border-radius:4px;
+}
+#mini-panel-social_links_home{
+padding: 5px 5px 0;
+}
+
+.view-homepage-quote{
+	margin: 30px 0;
+  padding: 13px 30px 13px 65px;
+	background-image: url("/sites/all/themes/earthteam_design/images/quotemark.png");
+	background-position: 15px 15px;
+  background-repeat: no-repeat;
+	font-size:17px;
+	line-height:20px;
+  background-color:#dab141;
+	border-radius:3px;
+  border: 3px solid #FFFFFF;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.31);
+}
+
+.view-homepage-quote .views-field-field-site-quote-author{
+	font-weight: bold;
+	line-height: 41px;
+	margin-left:10px;
+}
+.pane-teacher-student-of-the-month{
+width:341px;
+}
+
+.pane-teacher-student-of-the-month h2.pane-title,
+.upcoming-events h2.pane-title{
+	background:#98c052;
+	font-size:18px;
+	padding: 10px 20px;
+	margin:0;
+	text-align:center;
+	-webkit-border-top-left-radius: 5px;
+-webkit-border-top-right-radius: 5px;
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-topright: 5px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+}
+
+.pane-teacher-student-of-the-month td.col-1{
+	width:50px;
+	margin:0;
+	padding:0;
+}
+.pane-teacher-student-of-the-month td.col-2{
+	width:50px;
+	margin:0;
+	padding:0;
+}
+.view-teacher-student-of-the-month{
+	width:329px;
+	height:267px;
+	background:#eee;
+	padding:15px 0 0 12px;
+}
+
+.view-teacher-student-of-the-month h3{
+	text-align: center;
+	margin-top:-10px;
+	margin-bottom:5px;
+}
+.pane-teacher-student-of-the-month .views-field-field-student-teacher-photo{
+	width:144px;
+	  border: 3px solid #FFFFFF;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.31);
+    }
+#front-page .center-wrapper .panel-col-last {
+    width: 39.9%;
+}
+
+#front-page .center-wrapper .panel-col-first {
+    width: 60%;
+}
+
+#front-page .center-wrapper .views-field-field-news-image{
+float:left;	
+}
+
+#front-page  .news-teaser{
+}
+
+.front-blog-image{
+	float:left;
+}
+#front-page  .view-homepage-news{
+	min-height:300px;
+}
+
+#front-page .views-field-created{
+	margin-top: -13px;
+	margin-bottom: 12px;
+}
+
+#front-page .view-id-homepage_news .views-row{
+	padding-bottom:30px;
+}
+
+#front-page  .view-homepage-news img{
+	float:left;
+  border: 3px solid #FFFFFF;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.31);
+    float: left;
+    margin: 0.1em 1em 1em 0;
+}
+
+#front-page .view-homepage-news h2.title{
+	border-bottom: 4px solid #79993F;
+	font-size: 22px;
+	margin: 10px 0 15px;
+	padding: 0 0 5px;
+}
+
+.nominate p{
+	background-image: url("/sites/all/themes/earthteam_design/images/icon/plus.png");
+	    background-position: 0 65%;
+	    background-repeat: no-repeat;
+	    font-size: 10px;
+	    margin: -68px 85px 32px 88px;
+	    padding-left: 40px;
+	padding-left: 40px;
+	position:relative;
+}
+
+.green-media h2.pane-title{
+	text-align:center;
+}
+
+/*******************************************************************************
+ * Programs overview page
+ ******************************************************************************/
+.view-programs td{
+  padding: 30px;
+  width: 360px;
+}
+
+.view-programs img{
+	border: 3px solid #FFFFFF;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.31);
+}
+
+/*******************************************************************************
+ * Staff page
+ ******************************************************************************/
+.views-field-field-person-photo img{
+border: 8px solid #FFFFFF;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.31);
+    float: left;
+    margin: 0.5em 1em 1em 0;
+}
+
+.staff-info{
+	float:left;
+	margin-left:30px;
+}
+
+ .staff-info h2{
+	margin:0;
+	line-height:60px;
+	font-size:32px;
+}
+
+.staff-info h3{
+	padding:0;
+	margin:0;
+}
+/*******************************************************************************
+ * Teacher/Student of the Month
+ ******************************************************************************/
+.view-teacher-student-of-the-month-page .views-field-field-student-teacher-photo img{
+border: 8px solid #FFFFFF;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.31);
+    float: left;
+    margin: 0.5em 1em 1em 0;	
+}
+.teacher-student-info{
+	float:left;
+	margin-left:30px;
+}
+
+.view-teacher-student-of-the-month-page span.date-display-single {
+background: none repeat scroll 0 0 #F2DB3F;
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    font-size: 22px;
+    padding: 9px;
+    width: 960px;
+}
+/*******************************************************************************
+ * Job and Internship
+ ******************************************************************************/
+
+.job-date{
+	background:#eeeeee;
+	margin:20px 0;
+	padding:10px;
+}
+
+.view-jobs-and-internships h3{
+background: none repeat scroll 0 0 #7fb937;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 22px;
+    padding: 9px;
+    width: 960px;	
+  margin:0;
+}
+/*******************************************************************************
+ * Volunteer
+ ******************************************************************************/
+
+#block-views-past-volunteers-block-1 h2.block-title{
+background: none repeat scroll 0 0 #F2DB3F;
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    font-size: 22px;
+    padding: 9px;
+    width: 960px;
+  margin-top:30px;
+  font-size:33px;	
+}
