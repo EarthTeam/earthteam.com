@@ -133,12 +133,19 @@
 }
 
 #news-detail-title h2,
+div.view.view-what-we-do div.view-content > h3,
 #front-page .view-homepage-news h2.title{
     border-bottom: 4px solid #79993F;
     font-size: 22px;
     margin: 10px 0 15px;
     padding: 0 0 5px;
     color: #75a241;
+}
+div.view.view-what-we-do div.view-content > h3 {
+    margin-top: 2.5em;
+}
+div.view.view-what-we-do div.view-content > h3:nth-child(1) {
+    margin-top: 0px;
 }
 
 .nominate p{
@@ -164,6 +171,7 @@
   width: 360px;
 }
 
+.view-what-we-do img,
 .view-programs img{
 	border: 3px solid #FFFFFF;
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.31);

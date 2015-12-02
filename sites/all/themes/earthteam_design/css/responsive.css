@@ -215,6 +215,7 @@ div#views_infinite_scroll-ajax-loader img {
 	#navigation {
 		width: 720px;
 	}
+        #main > div.view.view-what-we-do div.view-content,
         #front-page > div.center-wrapper > div.panel-col-first.panel-panel > div > div > div.pane-content,
 	.pane-homepage-news {
 		padding-left: 10px;
@@ -223,6 +224,7 @@ div#views_infinite_scroll-ajax-loader img {
 		max-width: 100% !important;
 		height: auto;
 	}
+        #main > div.view.view-what-we-do div.view-content,
 	.panel-2col-stacked .panel-col-last .inside {
 		padding-right: 10px;
 	}
