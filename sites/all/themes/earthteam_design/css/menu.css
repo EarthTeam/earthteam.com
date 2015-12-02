@@ -52,6 +52,53 @@ border-bottom-left-radius: 8px;
    	font-size: 15px;
 }
 
+/*******************************************************************************
+ * Category tabs menu 
+ ******************************************************************************/
+
+/*
+#block-superfish-3:first-child {
+    z-index: 1;
+}
+*/
+body.page-front-rap #superfish-3 li#menu-2356-3 { 
+    background-color: #87c24b !important;
+    margin-top: 0em; 
+    height: 3.15em;
+}
+body.page-front-cap #superfish-3 li#menu-2358-3 { 
+    background-color: #87c24b !important;
+    margin-top: 0em; 
+    height: 3.15em;
+}
+body.page-front-wap #superfish-3 li#menu-2357-3 { 
+    background-color: #87c24b !important;
+    margin-top: 0em; 
+    height: 3.15em;
+}
+body.page-front-news #superfish-3 li#menu-2445-3 { 
+    background-color: #87c24b !important;
+    margin-top: 0em; 
+    height: 3.15em;
+}
+body.page-front-rap #superfish-3 li#menu-2356-3 a:hover { 
+    /*background-color: #ffa31a;*/ /*Yellow-Orange*/
+    /*background-color: #99CC00;*/ /*Bright Green*/
+    background-color: #87c24b !important;
+    height: 53%;
+}
+body.page-front-cap #superfish-3 li#menu-2358-3 a:hover { 
+    background-color: #87c24b !important;
+    height: 53%;
+}
+body.page-front-wap #superfish-3 li#menu-2357-3 a:hover { 
+    background-color: #87c24b !important;
+    height: 53%;
+}
+body.page-front-earth #superfish-3 li#menu-2445-3 a:hover { 
+    background-color: #87c24b !important;
+    height: 53%;
+}
 
 /*******************************************************************************
  * Social media menu
@@ -306,4 +353,131 @@ text-align:center;
 a.orange:hover,
 a.yellow:hover{
 	color:#333333;
+}
+
+ul.quicktabs-tabs.quicktabs-style.sky {
+    font-size: 90%;
+}
+#quicktabs-news_tab > div.item-list > ul > li {
+    font-size: 90% !important;
+}
+
+#quicktabs-tab-news_tab-0,
+#quicktabs-tab-news_tab-1,
+#quicktabs-tab-news_tab-2 {
+    font-size: .9em !important;
+}
+
+#panels-ipe-paneid-63 > div.panels-ipe-portlet-content > div > div.pane-content,
+#blog-update-panel > div > div.panels-flexible-row.panels-flexible-row-10-main-row.panels-flexible-row-first.clearfix > div > div > div,
+#panels-ipe-regionid-center,
+#panels-ipe-paneid-63 > div.panels-ipe-portlet-content > div > div.pane-content
+#ui-accordion-quickset-news_tab-panel-0,
+#ui-accordion-quickset-news_tab-panel-1,
+#ui-accordion-quickset-news_tab-panel-2,
+#ui-accordion-quickset-news_tab-panel-3 {
+    background: none !important;
+    border: none !important;
+}
+#quicktabs-tabpage-news_tab-0 > div > div.view-content > ul > li, 
+#quicktabs-tabpage-news_tab-1 > div > div.view-content > ul > li,
+#quicktabs-tabpage-news_tab-2 > div > div.view-content > ul > li, 
+#quicktabs-tabpage-news_tab-3 > div > div.view-content > ul > li, 
+#ui-accordion-quickset-news_tab-panel-0 > div > div.view-content > ul,
+#ui-accordion-quickset-news_tab-panel-1 > div > div.view-content > ul,
+#ui-accordion-quickset-news_tab-panel-2 > div > div.view-content > ul,
+#ui-accordion-quickset-news_tab-panel-3 > div > div.view-content > ul {
+    list-style-type: none;
+}
+#panels-ipe-paneid-63 > div.panels-ipe-portlet-content > div > div.pane-content {
+  border: 1px solid #eee;
+  clear: both;
+  padding: 10px 5px 0 5px;
+  position: relative;
+  top: -0.1em;
+  background: #fff;
+}
+
+#panels-ipe-paneid-63 > div.panels-ipe-portlet-content > div > div.pane-content > ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+#panels-ipe-paneid-63 > div.panels-ipe-portlet-content > div > div.pane-content > ul > li {
+  float: left;
+  font-weight: normal;
+  list-style: none;
+  margin: 0.3em 0 0 0;
+  height: 2.65em;
+  min-height: 2.95em;
+  padding: 0;
+}
+
+#panels-ipe-paneid-63 > div.panels-ipe-portlet-content > div > div.pane-content > ul > li.active {
+  margin: -0.2em 0 0 0;
+}
+
+#panels-ipe-paneid-63 > div.panels-ipe-portlet-content > div > div.pane-content > ul > li a,
+#panels-ipe-paneid-63 > div.panels-ipe-portlet-content > div > div.pane-content > ul > li a:visited {
+  float: left;
+  display: block;
+  height: 2.65em;
+  min-height: 2.95em;
+  line-height: 2.95em;
+  padding: 0 8px;
+  text-decoration: none;
+  border-right: 1px solid #eee;
+  border-top: 1px solid #eee;
+  font-size: .95em;
+  background: #fff url('images/bg-shade-light.png') repeat-x bottom left;
+  color: #777;
+  position: relative;
+}
+
+#panels-ipe-paneid-63 > div.panels-ipe-portlet-content > div > div.pane-content > ul > li a:hover,
+#panels-ipe-paneid-63 > div.panels-ipe-portlet-content > div > div.pane-content > ul > li a:hover {
+  text-decoration: none;
+  border-color: #B3B3B3;
+  background: #B3B3B3 url('images/bg-shade-medium.png') repeat-x bottom left;
+  color: #fff;
+}
+
+#panels-ipe-paneid-63 > div.panels-ipe-portlet-content > div > div.pane-content > ul > li.active a,
+#panels-ipe-paneid-63 > div.panels-ipe-portlet-content > div > div.pane-content > ul > li.active a:visited {
+  height: 3.05em;
+  min-height: 3.35em;
+  line-height: 3.35em;
+  font-weight: normal;
+  border: 1px solid #eee;
+  background: #858585 url('images/bg-shade-dark.png') repeat-x bottom left;
+"../../../modules/quicktabs/quicktabs_tabstyles/tabstyles/sky/sky.css" [readonly] 94L, 2080C                                           1,0-1         Top
+  border: 1px solid #eee;
+  background: #858585 url('images/bg-shade-dark.png') repeat-x bottom left;
+  border-color: #555;
+  color: #fff;
+  font-size: .95em;
+  font-weight: normal;
+  top: -0.025em;
+}
+
+#panels-ipe-paneid-63 > div.panels-ipe-portlet-content > div > div.pane-content > ul > li:first-child a {
+  border-left: solid 1px #eee;
+}
+
+#panels-ipe-paneid-63 > div.panels-ipe-portlet-content > div > div.pane-content > ul > li.active a {
+  border-left: solid 1px #777;
+}
+
+#panels-ipe-paneid-63 > div.panels-ipe-portlet-content > div > div.pane-content > ul > li a:focus,
+#panels-ipe-paneid-63 > div.panels-ipe-portlet-content > div > div.pane-content > ul > li a:active {
+  outline: none;
+
+}
+
+/* Opera */
+@media all and (min-width: 0px) {
+  body #panels-ipe-paneid-63 > div.panels-ipe-portlet-content > div > div.pane-content {
+    top: -0.2em;
+  }
 }

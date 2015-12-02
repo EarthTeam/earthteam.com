@@ -7,7 +7,7 @@
  * Front Page
  ******************************************************************************/
 .agenda .date-label{
-background: #eee !important;
+    background: #eee !important;
 }
 .panel-2col-stacked .panel-col-last .inside {
     margin: 0 0 0 2.1em;
@@ -15,24 +15,24 @@ background: #eee !important;
 
 .pane-social-links-home{
 	background-color:gray;
-  border-radius:4px;
+    border-radius:4px;
 }
 #mini-panel-social_links_home{
-padding: 5px 5px 0;
+    padding: 5px 5px 0;
 }
 
 .view-homepage-quote{
 	margin: 30px 0;
-  padding: 13px 30px 13px 65px;
+    padding: 13px 30px 13px 65px;
 	background-image: url("/sites/all/themes/earthteam_design/images/quotemark.png");
 	background-position: 15px 15px;
-  background-repeat: no-repeat;
+    background-repeat: no-repeat;
 	font-size:17px;
 	line-height:20px;
-  background-color:#dab141;
-	border-radius:3px;
-  border: 3px solid #FFFFFF;
-  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.31);
+    background-color:#dab141;
+    border-radius:3px;
+    border: 3px solid #FFFFFF;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.31);
 }
 
 .view-homepage-quote .views-field-field-site-quote-author{
@@ -41,22 +41,23 @@ padding: 5px 5px 0;
 	margin-left:10px;
 }
 .pane-teacher-student-of-the-month{
-width:341px;
+    width:341px;
 }
 
+#events_calendar > div.pane-content > h2,
 .pane-teacher-student-of-the-month h2.pane-title,
 .upcoming-events h2.pane-title{
-	background:#98c052;
-	font-size:18px;
-	padding: 10px 20px;
-	margin:0;
-	text-align:center;
-	-webkit-border-top-left-radius: 5px;
--webkit-border-top-right-radius: 5px;
--moz-border-radius-topleft: 5px;
--moz-border-radius-topright: 5px;
-border-top-left-radius: 5px;
-border-top-right-radius: 5px;
+    background:#98c052;
+    font-size:18px;
+    padding: 10px 20px;
+    margin:0;
+    text-align:center;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .pane-teacher-student-of-the-month td.col-1{
@@ -81,21 +82,25 @@ border-top-right-radius: 5px;
 	margin-top:-10px;
 	margin-bottom:5px;
 }
+
 .pane-teacher-student-of-the-month .views-field-field-student-teacher-photo{
 	width:144px;
-	  border: 3px solid #FFFFFF;
+	border: 3px solid #FFFFFF;
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.31);
-    }
+}
+
+#news-detail > div.center-wrapper > div.panel-col-last.panel-panel,
 #front-page .center-wrapper .panel-col-last {
     width: 39.9%;
 }
 
+#news-detail > div.center-wrapper > div.panel-col-first.panel-panel,
 #front-page .center-wrapper .panel-col-first {
     width: 60%;
 }
 
 #front-page .center-wrapper .views-field-field-news-image{
-float:left;	
+    float:left;	
 }
 
 #front-page  .news-teaser{
@@ -117,19 +122,23 @@ float:left;
 	padding-bottom:30px;
 }
 
-#front-page  .view-homepage-news img{
-	float:left;
-  border: 3px solid #FFFFFF;
+#news-detail-body img,
+#front-page  .view-homepage-news img {
+    float:left;
+    border: 3px solid #FFFFFF;
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.31);
     float: left;
     margin: 0.1em 1em 1em 0;
+    max-width: 100%;
 }
 
+#news-detail-title h2,
 #front-page .view-homepage-news h2.title{
-	border-bottom: 4px solid #79993F;
-	font-size: 22px;
-	margin: 10px 0 15px;
-	padding: 0 0 5px;
+    border-bottom: 4px solid #79993F;
+    font-size: 22px;
+    margin: 10px 0 15px;
+    padding: 0 0 5px;
+    color: #75a241;
 }
 
 .nominate p{
